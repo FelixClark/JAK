@@ -1,0 +1,11 @@
+<resources>
+    <fonts>
+    	<font id="Steps_Font" filename="fonts/Steps_Font.fnt"/>
+		<font id="Steps_Font_Small" filename="fonts/Steps_Font_Small.fnt"/>
+		<font id="Battery_Font" filename="fonts/Battery_Font.fnt"/>
+	</fonts>
+	
+	<drawables>
+    	<bitmap id="LauncherIcon" filename="drawables/launcher_icon.png" />
+	</drawables>
+</resources>

@@ -1,0 +1,12 @@
+<layout id="WatchFace">
+        <bitmap id="JAKLogo" x="center" y="center" filename="../../resources/drawables/JAK.png" />
+        <!-- <bitmap id="BatterySymbol" x="20" y="120" filename="../drawables/Battery.png" /> -->
+        <bitmap id="HeartSymbol" x="240" y="120" filename="../../resources/drawables/heart.png" />  
+          
+	    <label id="TimeLabel" x="center" y="192" font="Graphics.FONT_NUMBER_MILD" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+	    <label id="DateLabel" x="center" y="20" font="Graphics.FONT_GLANCE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+	    <label id="StepsLabel" x="center" y="245" font="@Fonts.Steps_Font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+	    <label id="BatteryLabel" x="30" y="120" font="@Fonts.Battery_Font" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+	    <label id="LeftLabel" x="30" y="140" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+	    <label id="RightLabel" x="252" y="140" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+</layout>
